@@ -1,23 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+
+const background = (
+  <img
+    className="background"
+    src="https://i.kym-cdn.com/entries/icons/original/000/000/673/maxresdefault.jpg"
+    alt="Aragorn and Legolas running in the fields of Rohan, searching for the kidnapped Hobbits Merry and Pippin."
+  />
+);
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div className="container">
+      <header className="app-header">
+        <p>Click Legolas and see what happens!</p>
       </header>
+      { background }
     </div>
   );
 }
