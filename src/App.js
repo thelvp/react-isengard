@@ -1,11 +1,39 @@
 import './App.css';
 
-const background = (
-  <img
-    className="background"
-    src="https://i.kym-cdn.com/entries/icons/original/000/000/673/maxresdefault.jpg"
-    alt="Aragorn and Legolas running in the fields of Rohan, searching for the kidnapped Hobbits Merry and Pippin."
-  />
+const quotes = [
+  "they've taken",
+  "the hobbits",
+  "to Isengard!",
+  "Isen",
+  "gard!",
+  "Isen",
+  "g-g-gard!",
+  "*squint*",
+  "the hobbits",
+  "to Isengard!",
+  "to Isen",
+  "gard!",
+  "*que music*",
+];
+
+let clickCount = 0;
+
+const displayText = (e) => {
+  const p = document.getElementById("textbubble");
+  p.innerText = quotes[clickCount];
+  if (clickCount < quotes.length - 1) {
+    clickCount += 1;
+  } else {
+    clickCount = 0
+  }
+};
+
+const legolas = (
+  <div
+    id="background"
+    onClick={displayText}>
+    <p id="textbubble"></p>
+  </div>
 );
 
 function App() {
@@ -14,7 +42,7 @@ function App() {
       <header className="app-header">
         <p>Click Legolas and see what happens!</p>
       </header>
-      { background }
+      { legolas }
     </div>
   );
 }
