@@ -1,3 +1,11 @@
+# What is this app about
+
+It's a random thing where Legalas says stuff. What he says? Run it and find out ;) 
+
+This is my first practice with react, so the amateur level is through the roof! But fortunatately the awesome levels are very high as well. I mean, come on - it's the Lord of the Rings! 
+
+----------------------------------------------------------------------
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
