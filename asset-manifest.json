@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-isengard/static/css/main.eed4b7ae.css",
+    "main.js": "/react-isengard/static/js/main.2140d0e7.js",
+    "static/js/453.84fb7e7a.chunk.js": "/react-isengard/static/js/453.84fb7e7a.chunk.js",
+    "index.html": "/react-isengard/index.html",
+    "main.eed4b7ae.css.map": "/react-isengard/static/css/main.eed4b7ae.css.map",
+    "main.2140d0e7.js.map": "/react-isengard/static/js/main.2140d0e7.js.map",
+    "453.84fb7e7a.chunk.js.map": "/react-isengard/static/js/453.84fb7e7a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eed4b7ae.css",
+    "static/js/main.2140d0e7.js"
+  ]
+}
