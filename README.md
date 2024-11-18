@@ -1,8 +1,8 @@
 # What is this app about
 
-It's a random thing where Legalas says stuff. What he says? Run it and find out ;) 
+It's a random thing where Legalas says stuff. What he says? Run it and find out ;)
 
-This is my first practice with react, so the amateur level is through the roof! But fortunatately the awesome levels are very high as well. I mean, come on - it's the Lord of the Rings! 
+This is my first practice with react, so the amateur level is through the roof! But fortunatately the awesome levels are very high as well. I mean, come on - it's the Lord of the Rings!
 
 ----------------------------------------------------------------------
 
@@ -27,7 +27,7 @@ You may also see any lint errors in the console.
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+### `"npm run build"`
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
